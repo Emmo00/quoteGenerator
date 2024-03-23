@@ -13,7 +13,8 @@
             >Add to Favorite</a
         >
         <a
-            href=""
+            href="https://twitter.com/intent/tweet?text={{ urlencode($quote) }}"
+            target="_blank"
             class="m-2 px-4 py-2 bg-white text-black rounded-md hover:bg-blue-500 hover:text-white focus:outline-none focus:bg-blue-600"
             >Tweet</a
         >
